@@ -1,0 +1,203 @@
+from turtle import *
+width(2)
+setup(600, 600)
+speed("normal")
+
+setheading(0)
+up()
+forward(-250)
+setheading(270)
+forward(250)
+down()
+setheading(0)
+
+for loop in range(4):
+    forward(500)
+    left(90)
+
+
+up()
+setheading(0)
+forward(400)
+setheading(90)
+forward(250)
+down()
+fillcolor("grey")
+begin_fill()
+setheading(210)
+forward(300)
+setheading(28)
+forward(300)
+end_fill()
+up()
+setheading(180)
+forward(10)
+down()
+begin_fill()
+setheading(300)
+circle(10)
+end_fill()
+up()
+setheading(35)
+forward(10)
+dot(8, "black")
+
+setheading(270)
+forward(253.42)
+setheading(180)
+forward(403.27)
+
+down()
+
+up()
+setheading(0)
+forward(250)
+setheading(90)
+up()
+forward(250)
+setheading(0)
+speed("fastest")
+
+width(3)
+down()
+fillcolor("firebrick")
+begin_fill()
+
+setheading(135)
+forward(20)
+setheading(0)
+forward(50)
+setheading(225)
+forward(20)
+end_fill()
+up()
+setheading(45)
+forward(20)
+setheading(180)
+forward(45)
+down()
+setheading(315)
+circle(30, -45)
+
+dot(5, "red")
+
+setheading(270)
+circle(150, -70)
+
+setheading(225)
+circle(200, 30)
+
+setheading(270)
+circle(6, 150)
+setheading(55)
+forward(110)
+
+setheading(91)
+circle(200, -52)
+
+up()
+setheading(90)
+forward(15)
+setheading(180)
+forward(15)
+down()
+
+
+
+fillcolor("black")
+begin_fill()
+
+setheading(235)
+circle(6, 180)
+
+
+setheading(55)
+forward(10)
+
+
+setheading(45)
+circle(3, 140)
+
+setheading(188)
+circle(30, 30)
+
+end_fill()
+
+#second eye
+up()
+setheading(180)
+forward(15)
+setheading(270)
+forward(5)
+down()
+
+begin_fill()
+setheading(120)
+circle(3, -180)
+setheading(120)
+forward(10)
+setheading(300)
+circle(3, -180)
+setheading(300)
+forward(10)
+end_fill()
+up()
+setheading(270)
+forward(25)
+down()
+
+speed("normal")
+
+fillcolor("firebrick")
+begin_fill()
+setheading(240)
+forward(80)
+setheading(315)
+circle(70, 90)
+setheading(117)
+forward(80)
+end_fill()
+
+up()
+setheading(270)
+forward(87)
+down()
+setheading(95)
+forward(80)
+up()
+setheading(180)
+forward(10)
+setheading(260)
+down()
+forward(80)
+setheading(270)
+up()
+forward(5)
+down()
+fillcolor("black")
+begin_fill()
+setheading(270)
+forward(50)
+circle(2, 180)
+setheading(90)
+forward(49)
+end_fill()
+
+setheading(0)
+up()
+forward(15)
+down()
+begin_fill()
+setheading(280)
+forward(50)
+circle(2, 180)
+setheading(100)
+forward(49)
+end_fill()
+
+
+
+
+#exit gracefully
+hideturtle()
+done()
